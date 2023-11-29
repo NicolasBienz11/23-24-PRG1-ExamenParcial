@@ -6,7 +6,7 @@ public class Edificio {
         final String VENTANA_ABIERTA_PRENDIDA = ":[*]:";
 
         int horas = 24;
-        int dias = 7
+        int dias = 7;
         int totalLucesEncendidas = 0;
         double promedioLucesEncendidas;
         boolean caeRayo = false;
@@ -97,19 +97,5 @@ public class Edificio {
             }
         }
         return contador;
-    }
-}
-
-
-
-
-    static void printBasement() {
-        System.out.println("""
-                :[       ]::::|      |::::[       ]:
-                ------------------------------------
-                     ==========================
-                   ==============================
-                 ==================================
-                """);
     }
 }
